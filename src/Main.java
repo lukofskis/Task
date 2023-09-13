@@ -48,7 +48,7 @@ public class Main {
                             String resultDate = outputDate.format(date);
                             System.out.println(resultDate);
                         }
-                    } catch (java.text.ParseException e) {
+                    } catch (Exception e){
                     }
 
                 }
